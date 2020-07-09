@@ -4,5 +4,5 @@
 #
 # Copyright:: 2020, The Authors, All Rights Reserved.
 #
-Receipe 
-setup.rb
+include_recipe "workstation::infra"
+include_recipe "workstation::setup"
